@@ -1,0 +1,98 @@
+#border {
+    height: 400px;
+    width: 290px;
+    border: 2px solid black;
+    margin: auto;
+    justify-content: space-evenly;
+    background-color: gainsboro;
+    box-shadow: -3px 3px 7px rgba(0, 0, 0, .6), inset -100px 0px 100px rgba(255, 255, 255, .5);
+    
+
+}
+#screen{
+    height: 50px;
+    width: 240px;
+    border: 2px solid;
+    margin: 30px;
+    margin-left: 22px;
+    font-size:x-large ;
+    box-shadow: inset 0px 0px 10px #767575, inset 0px -25px 1px rgba(188, 186, 186, 0.2);
+    text-align: end;
+}
+#btns{
+    width: 250px;
+    height: 250px;
+    border: 1px solid none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: 22px;
+  
+  
+}
+.btn{
+    height: 52px;
+    width: 54px;
+    border: 1px solid ;
+    display:inline-flex;
+    text-align: center;
+    align-items:center ;
+    justify-content: space-evenly;
+    font-size:large;
+    border-radius: 8px;
+
+
+}
+#clear{
+    height: 52px;
+    width: 54px;
+    border: 1px solid ;
+    display:inline-flex;
+    text-align: center;
+    align-items:center ;
+    justify-content: space-evenly;
+    font-size:large;
+    border-radius: 8px;
+    background-color: red;
+    color: aliceblue;
+    box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px #e31515;
+
+}
+.sign{
+    height: 52px;
+    width: 54px;
+    border: 1px solid ;
+    display:inline-flex;
+    text-align: center;
+    align-items:center ;
+    justify-content: space-evenly;
+    font-size:large;
+    border-radius: 8px;
+    background-color: black;
+    color: aliceblue;
+    box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px #232323;
+}
+.digit{
+    height: 52px;
+    width: 54px;
+    border: 1px solid ;
+    display:inline-flex;
+    text-align: center;
+    align-items:center ;
+    justify-content: space-evenly;
+    font-size:large;
+    border-radius: 8px;
+    text-shadow: 1px 1px 0px #FFF;
+    box-shadow: 0px 0px 2px #9e9b9b, inset 0px -20px 1px #c6c1c1;
+ 
+}
+.digit:hover,
+.sign:hover,
+#clear:hover {
+	background-color: #FFBA75;
+	box-shadow: 0px 0px 2px #FFBA75, inset 0px -20px 1px #FF8000;
+	border-top: 2px solid #FFF;
+	border-right: 2px solid #FFF;
+	border-bottom: 2px solid #AE5700;
+	border-left: 2px solid #AE5700;
+}
